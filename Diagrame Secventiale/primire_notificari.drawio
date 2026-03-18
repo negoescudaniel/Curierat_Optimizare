@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.3">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1042" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Client" vertex="1">
+          <mxGeometry height="300" width="100" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Sistem" vertex="1">
+          <mxGeometry height="300" width="100" x="220" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DJR6PuIR2CGb6_XNfBPp-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Primire notificari" vertex="1">
+          <mxGeometry height="30" width="200" x="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DJR6PuIR2CGb6_XNfBPp-2" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="for" vertex="1">
+          <mxGeometry height="190" width="290" x="130" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="DJR6PuIR2CGb6_XNfBPp-3" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-5" style="endArrow=classic;html=1;rounded=0;elbow=vertical;" target="aM9ryv3xv72pqoxQDRHE-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="190" />
+            </Array>
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJR6PuIR2CGb6_XNfBPp-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Verifica starea comenzii" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DJR6PuIR2CGb6_XNfBPp-5" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="Alt" vertex="1">
+          <mxGeometry height="70" width="240" x="155" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="DJR6PuIR2CGb6_XNfBPp-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="if se shimba statutul comenzii" vertex="1">
+          <mxGeometry height="30" width="70" x="325" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="DJR6PuIR2CGb6_XNfBPp-7" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-5" style="endArrow=classic;html=1;rounded=0;" target="aM9ryv3xv72pqoxQDRHE-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="270" />
+            </Array>
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJR6PuIR2CGb6_XNfBPp-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="trimite notificare" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
