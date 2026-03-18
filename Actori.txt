@@ -1,0 +1,24 @@
+
+BENEFICIARUL
+
+Compania de curierat este beneficiarul sistemului , care doreste optimizarea costurilor si 
+reducerea timpului de livrare. Prin implementarea aplicatiei, compania urmareste cresterea eficientei operationale, 
+utilizarea mai buna a resurselor si imbunatatirea calitatii serviciilor.
+
+UTILIZATOR DE SISTEM 
+
+Administratorul este responsabil de configurarea si gestionarea sistemului. El administreaza utilizatorii 
+si vehiculele, si stabileste drepturile de acces.
+
+Dispecerul gestioneaza activitatea zilnica de livrare. Acesta introduce adresele, aloca coletele soferilor, 
+lanseaza optimizarea rutelor, monitorizeaza livrarile in timp real si intervine in cazul aparitiei unor incidente sau modificari.
+
+
+UTILIZATOR FINAL
+
+Curierul utilizeaza aplicatia mobila pentru a urma ruta optimizata, a confirma livrarile si a actualiza statusul
+coletelor. El poate raporta incidente aparute in timpul livrarii.
+
+Clientul final este beneficiarul indirect al sistemului. Acesta primeste notificari,
+poate urmari statusul livrarii si confirma primirea coletului.
+

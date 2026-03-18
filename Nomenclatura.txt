@@ -1,0 +1,24 @@
+
+Comanda – solicitare de livrare care contine datele expeditorului, destinatarului si detaliile coletului.
+
+Colet – pachet fizic ce trebuie transportat de la expeditor la destinatar.
+
+Adresa de livrare – locatia la care trebuie livrat coletul.
+
+Ruta – succesiune de adrese pe care soferul trebuie sa le parcurga.
+
+Ruta optimizata – traseu calculat automat de sistem pentru minimizarea timpului si distantei.
+
+Dispecer – utilizator de sistem care planifica si monitorizeaza livrarile.
+
+Curier – utilizator final care efectueaza livrarile pe baza rutei primite.
+
+Administrator – utilizator de sistem responsabil cu configurarea si gestionarea aplicatiei.
+
+Vehicul – mijloc de transport utilizat pentru livrarea coletelor.
+
+Status livrare – stare curenta a unei comenzi (in curs de livrare, livrat, nereusit).
+
+Incident – situatie neprevazuta aparuta in timpul livrarii (client absent, adresa gresita, intarziere).
+
+Raport de activitate – document generat de sistem care prezinta performanta livrarilor intr-un interval de timp.
